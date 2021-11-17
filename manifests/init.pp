@@ -51,6 +51,8 @@ class bind (
   $nnotify                = undef,
   $request_ixfr           = undef,
   $logging                = undef,
+  $edns_udp_size          = undef,
+  $max_udp_size           = undef,
   $statistics_channels    = [],
   $key                    = [],
   $zone                   = [],

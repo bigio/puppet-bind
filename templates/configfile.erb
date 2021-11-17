@@ -130,6 +130,12 @@ notify <%= @nnotify %>;
 <% if @request_ixfr -%>
 request-ixfr <%= @request_ixfr %>;
 <% end -%>
+<% if @edns_udp_size -%>
+edns-udp-size <%= @edns_udp_size %>;
+<% end -%>
+<% if @max_udp_size -%>
+max-udp-size <%= @max_udp_size %>;
+<% end -%>
 };
 
 <% if @logging -%>
